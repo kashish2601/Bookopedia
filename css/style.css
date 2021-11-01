@@ -1,0 +1,111 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+}
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 17pc;
+    left: 15pc;
+    position:absolute;
+    color:#00d3f8c0;
+    font-size: 55px;
+    font-weight: bolder;
+    font-style:oblique;
+    text-shadow: 2px 2px #505253;
+}
+small{
+    font-size:30px;
+}
+h1{
+    box-sizing: border-box;
+    animation: heading 2s;
+}
+@keyframes heading {
+    0%{
+        left: 100px;
+        position: absolute;
+    }
+    100%{
+        left: 240px;
+        position:absolute;
+    }
+}
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 50px;
+    transition: all 0.5s;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.nav-menu *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+.nav-menu a, .nav-menu a:focus {
+    display: flex;
+    align-items: center;
+    color: #45505b;
+    padding: 10px 18px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+    border-radius: 50px;
+    background: #f2f3f5;
+    height: 56px;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.3s;
+}
+  
+.nav-menu a i, .nav-menu a:focus i {
+    font-size: 20px;
+}
+  
+.nav-menu a span, .nav-menu a:focus span {
+    padding: 0 5px 0 7px;
+    color: #45505b;
+}
+
+.nav-menu a, .nav-menu a:focus {
+      width: 56px;
+}
+
+.nav-menu a span, .nav-menu a:focus span {
+      display: none;
+      color: black;
+      font-weight:500;
+}
+  
+.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
+    color: #fff;
+    background: #00d3f8c0;
+}
+  
+.nav-menu a:hover, .nav-menu li:hover > a {
+    width: 100%;
+    color: #fff;
+}
+  
+.nav-menu a:hover span, .nav-menu li:hover > a span {
+    display: block;
+} 
+
+#kashish{
+    box-sizing: border-box;
+    animation: info 2s ;
+}
+@keyframes info {
+   0%{
+       left: 920px;
+       position: absolute;
+   }
+    100%{
+        left: 800px;
+        position:absolute;
+    }
+}

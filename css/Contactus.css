@@ -1,0 +1,367 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+    overflow-x:hidden;
+}
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 17pc;
+    left: 15pc;
+    position:absolute;
+    color:#00d3f8c0;
+    font-size: 55px;
+    font-weight: bolder;
+    font-style:oblique;
+    text-shadow: 2px 2px #505253;
+}
+
+#header {
+    position:relative;
+    top: 0;
+    left: 0;
+    bottom: 50px;
+    transition: all 0.5s;
+    padding: 20px;
+}
+
+.nav-menu *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+.nav-menu a, .nav-menu a:focus {
+    display: flex;
+    align-items: center;
+    color: #45505b;
+    padding: 10px 18px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+    border-radius: 50px;
+    background: #f2f3f5;
+    height: 56px;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.3s;
+}
+  
+.nav-menu a i, .nav-menu a:focus i {
+    font-size: 20px;
+}
+  
+.nav-menu a span, .nav-menu a:focus span {
+    padding: 0 5px 0 7px;
+    color: #45505b;
+}
+
+.nav-menu a, .nav-menu a:focus {
+      width: 56px;
+}
+
+.nav-menu a span, .nav-menu a:focus span {
+      display: none;
+      color: black;
+      font-weight:500;
+}
+  
+.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
+    color: #fff;
+    background: #00d3f8c0;
+}
+  
+.nav-menu a:hover, .nav-menu li:hover > a {
+    width: 100%;
+    color: #fff;
+}
+  
+.nav-menu a:hover span, .nav-menu li:hover > a span {
+    display: block;
+} 
+
+#kashish{
+    box-sizing: border-box;
+    animation: info 2s ;
+}
+@keyframes info {
+   0%{
+       left: 920px;
+       position: absolute;
+   }
+    100%{
+        left: 800px;
+        position:absolute;
+    }
+}
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info-box {
+    color: #444444;
+    background: #fafbff;
+    padding: 30px;
+  }
+  .contact .info-box i {
+    font-size: 38px;
+    line-height: 0;
+    color: #4154f1;
+  }
+  .contact .info-box h3 {
+    font-size: 20px;
+    color: #012970;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+  }
+  .contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .contact .php-email-form {
+    background: #fafbff;
+    padding: 30px;
+    height: 100%;
+  }
+  .contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+  .contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+  .contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 24px;
+  }
+  .contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+  .contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 0;
+  }
+  .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+    border-color: #4154f1;
+  }
+  .contact .php-email-form input {
+    padding: 10px 15px;
+  }
+  .contact .php-email-form textarea {
+    padding: 12px 15px;
+  }
+  .contact .php-email-form button[type=submit] {
+    background: #4154f1;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+  }
+  .contact .php-email-form button[type=submit]:hover {
+    background: #5969f3;
+  }
+  @-webkit-keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+    background: #f6f9ff;
+    padding: 0 0 30px 0;
+    font-size: 14px;
+    position:relative;
+  }
+  .footer .footer-newsletter {
+    padding: 50px 0;
+    background: #f6f9ff;
+    border-top: 1px solid #e1ecff;
+  }
+  .footer .footer-newsletter h4 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    color: #012970;
+  }
+  .footer .footer-newsletter form {
+    margin-top: 20px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #e1ecff;
+  }
+  .footer .footer-newsletter form input[type=email] {
+    border: 0;
+    padding: 8px;
+    width: calc(100% - 140px);
+  }
+  .footer .footer-newsletter form input[type=submit] {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 30px;
+    margin: 3px;
+    background: #4154f1;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 4px;
+  }
+  .footer .footer-newsletter form input[type=submit]:hover {
+    background: #5969f3;
+  }
+  .footer .footer-top {
+    background: white url(../img/footer-bg.png) no-repeat;
+    background-size: contain;
+    border-top: 1px solid #e1ecff;
+    border-bottom: 1px solid #e1ecff;
+    padding: 60px 0 30px 0;
+  }
+  @media (max-width: 992px) {
+    .footer .footer-top {
+      background-position: center bottom;
+    }
+  }
+  .footer .footer-top .footer-info {
+    margin-bottom: 30px;
+  }
+  .footer .footer-top .footer-info .logo {
+    line-height: 0;
+    margin-bottom: 15px;
+  }
+  .footer .footer-top .footer-info .logo img {
+    max-height: 40px;
+    margin-right: 6px;
+  }
+  .footer .footer-top .footer-info .logo span {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+    margin-top: 3px;
+  }
+  .footer .footer-top .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Nunito", sans-serif;
+  }
+  .footer .footer-top .social-links a {
+    font-size: 20px;
+    display: inline-block;
+    color: rgba(1, 41, 112, 0.5);
+    line-height: 0;
+    margin-right: 10px;
+    transition: 0.3s;
+  }
+  .footer .footer-top .social-links a:hover {
+    color: #012970;
+  }
+  .footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #012970;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  .footer .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+  .footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #d0d4fc;
+    font-size: 12px;
+    line-height: 0;
+  }
+  .footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  .footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  .footer .footer-top .footer-links ul a {
+    color: #013289;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+  }
+  .footer .footer-top .footer-links ul a:hover {
+    color: #4154f1;
+  }
+  .footer .footer-top .footer-contact p {
+    line-height: 26px;
+  }
+  .footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: #012970;
+  }
+  .footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #012970;
+  }  
+  .P{
+    top: 41pc;
+    left: 90pc;
+    position: relative;
+    height: 3pc;
+    width: 3pc;
+    position: fixed;
+    display: block;
+}
